@@ -37,6 +37,9 @@ use App\Http\Controllers\Auth\RegisterController;
 |
 */
 
+Route::get('/',function (){
+    return redirect(url('/login'));
+});
 Route::get('/appform/public/',[HomeController::class,'index']);
 
 Auth::routes();
