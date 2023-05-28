@@ -137,8 +137,8 @@
                             <div class="form-group row">
 
                                 <div class="col-md-6 offset-4">
-                                    <input id="captcha" type="text" class="form-control" placeholder="Enter Captcha"
-                                           name="captcha">
+                                <input id="captcha" type="text" class="form-control" placeholder="Enter Captcha"
+                                       name="captcha">
                                 </div>
                             </div>
 
